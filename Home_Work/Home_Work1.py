@@ -24,3 +24,54 @@
 # вік збережіть у змінну.
 # Обчисліть, скільки років буде користувачу через 10 років.
 # Виведіть повідомлення у форматі: “Привіт, [Ім’я]! Тобі зараз [Вік] років. Через 10 років тобі буде [Вік+10] років.”
+
+a_num = 20
+b_num = "Roman"
+c_num = "A"
+d_num = "B"
+f_num = True
+j_num = 52.9
+
+print(a_num, b_num, c_num, d_num, f_num, j_num , sep=' | ')
+
+A_num = 20
+B_num = 60
+A_B_result = A_num + B_num
+print(A_B_result, "<UNK>  20 +  60")
+
+A_B_result = A_num - B_num
+print(A_B_result , "<UNK>  20 - 60")
+
+A_B_result = A_num * B_num
+print(A_B_result, "<UNK>  20 * 60")
+A_B_result = A_num / B_num
+print(A_B_result , "<UNK>  20 / 60")
+A_B_result = A_num % B_num
+print(A_B_result, "<UNK>  20 % 60")
+A_B_result = A_num // B_num
+print(A_B_result , "<UNK>  20 // 60")
+A_B_result = A_num % B_num
+print(A_B_result, "<UNK>  20 % 60")
+
+
+# Створіть змінну first_name та присвойте їй ваше ім’я.
+# Створіть змінну last_name та присвойте їй ваше прізвище.
+# Створіть змінну full_name, об’єднавши (конкатенувавши) ім’я та прізвище через пробіл.
+# Виведіть full_name на екран.
+
+first_name = "Roman"
+last_name = "Babichenko"
+full_name = first_name + " " + last_name
+print(full_name)
+
+# Змішані типи та введення даних
+# Умова:
+# ім’я збережіть у змінну.
+# вік збережіть у змінну.
+# Обчисліть, скільки років буде користувачу через 10 років.
+# Виведіть повідомлення у форматі: “Привіт, [Ім’я]! Тобі зараз [Вік] років. Через 10 років тобі буде [Вік+10] років.”
+
+name = "Roman"
+yers = 33
+old = yers + 10
+print(f"Привіт , {name}! Тобі зараз {yers} років. Через 10 років тобі буде {old} років")
